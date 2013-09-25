@@ -1,0 +1,8 @@
+platform :ios, '6.0'
+
+xcodeproj 'KiwiTest/KiwiTest.xcodeproj'
+
+target :KiwiTestTests, :exclusive => true do
+    pod 'Kiwi/XCTest'
+#, :git => 'https://github.com/allending/Kiwi.git', :commit => '3a026e96d21aaf66cf922b80f906fb1fe54d240d'
+end
